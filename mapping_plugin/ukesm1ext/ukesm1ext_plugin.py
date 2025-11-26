@@ -44,6 +44,6 @@ class UKESM1extMappingPlugin(BaseMappingPlugin):
         constant_dict = super(UKESM1extMappingPlugin, self).constants()
         constant_dict.update({
             'MOLECULAR_MASS_CH3CHO' : '44.0',
-            )}
+            })
         return constant_dict
 
