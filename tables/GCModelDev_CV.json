@@ -433,9 +433,9 @@
         "mip_era":[
             "GCModelDev"
         ],
-        "sub_experiment_id":{
-            "none":"none"
-        },
+        "sub_experiment_id":[
+           "^[^_]*$"
+        ],
         "experiment_id": [
            "^[^_]*$"
         ],
