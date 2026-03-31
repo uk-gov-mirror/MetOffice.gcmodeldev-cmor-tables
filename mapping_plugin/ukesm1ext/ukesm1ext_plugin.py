@@ -1,7 +1,9 @@
-# (C) British Crown Copyright 2024-2025, Met Office.
+# (C) British Crown Copyright 2025, Met Office.
 # Please see LICENSE.md for license details.
 """
+The :mod:`ukesm1_plugin` module contains the code for the UKESM1 plugin.
 """
+import iris.cube
 import os
 
 from typing import Dict, Any
@@ -10,7 +12,7 @@ import iris.cube
 
 from mip_convert.plugins.base.base_plugin import BaseMappingPlugin
 from mip_convert.plugins.base.data.processors import *
-from mip_convert.plugins.hadgem3.data.processors import *
+from mip_convert.plugins.ukesm1.data.processors import *
 
 
 class UKESM1extMappingPlugin(BaseMappingPlugin):
